@@ -1,0 +1,25 @@
+{
+  "name": "expo-android-template",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "npx expo start",
+    "android": "npx expo run:android",
+    "ios": "npx expo run:ios",
+    "prebuild": "npx expo prebuild",
+    "build:android": "eas build --platform android"
+  },
+  "dependencies": {
+    "expo": "^54.0.0",
+    "expo-build-properties": "~1.0.10",
+    "expo-contacts": "~15.0.11",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "~54.0.10",
+    "typescript": "~5.9.2"
+  }
+}

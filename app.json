@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "jsEngine": "hermes",
+    "name": "Expo Android Template",
+    "slug": "expo-android-template",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.example.expoandroidtemplate",
+      "permissions": ["READ_CONTACTS", "GET_ACCOUNTS"],
+      "adaptiveIcon": {
+        "foregroundImage": "../../assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      ["expo-build-properties", {
+        "android": {
+          "compileSdkVersion": 33,
+          "targetSdkVersion": 33
+        }
+      }]
+    ]
+  }
+}
