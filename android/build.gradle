@@ -1,0 +1,17 @@
+// Top-level (skeleton) Gradle build file for the template (managed projects will generate full android/ by prebuild)
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath('com.android.tools.build:gradle:7.4.2')
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
